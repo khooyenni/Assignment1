@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Assignment1 {
 
 	public static void main(String[] args) {
@@ -7,32 +8,37 @@ public class Assignment1 {
 		System.out.print("Enter you name: ");
 		String name = in.next();
 		System.out.println("Name : " + name);
+		System.out.println();
 		
 		System.out.print("Enter your age:");
 		int age = in.nextInt();
 		System.out.println("Age : " + age);
+		System.out.println();
 		
 		System.out.print("Enter your citizenship:");
 		String citizenship = in.next();
 		System.out.println("Citizenship : " + citizenship);
+		System.out.println();
 		
 		System.out.print("Enter your Home Address:");
 		String home = in.next();
 		System.out.println("Home Address : " + home);
+		System.out.println();
 		
-		System.out.println("Enter type of bussiness loan : ");
-		String type1 = in.next();
-		String type2 = in.next();
-		String type3 = in.next();
-		System.out.println("Type of bussiness loan : " + type1 +"," + type2 + ","+ type3 + ",");
+		System.out.println("Type of loan: Bussiness loan");
+		System.out.println("The interest for bussiness loan more than RM10000 is 6%.");
+		System.out.println("The interest for bussiness loan less than RM10000 is 7%.");
+		System.out.println();
 		
 		System.out.println("Enter the amount borrowed: ");
 		int amount = in.nextInt();
 		System.out.println("Amount borrowed : " + "RM" + amount);
+		System.out.println();
 		
 		System.out.println("The number of months to pay the loan back: ");
 		int months = in.nextInt();
 		System.out.println("The number of months to pay the loan back : " + months);
+		System.out.println();
 		
 		int interest1 = 6;
 		int interest2 = 7;
