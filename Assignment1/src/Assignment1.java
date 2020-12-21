@@ -26,7 +26,7 @@ public class Assignment1 {
 		System.out.println();
 		
 		System.out.println("Type of loan: Bussiness loan");
-		System.out.println("The interest for bussiness loan more than RM10000 is 6%.");
+		System.out.println("The interest for bussiness loan more or equal to RM10000 is 6%.");
 		System.out.println("The interest for bussiness loan less than RM10000 is 7%.");
 		System.out.println();
 		
